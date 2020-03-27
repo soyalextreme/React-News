@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     const fetchApi = async () => {
-      const uri = `https://newsapi.org/v2/top-headlines?country=mx&category=${category}&apiKey=eb83cb2307e644b2820bf093fece8c23`;
+      const uri = `https://newsapi.org/v2/top-headlines?country=mx&category=${category}&apiKey=APIHERE`;
 
       const response = await fetch(uri);
       const data = await response.json();
